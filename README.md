@@ -20,7 +20,7 @@ The CSV file should have the following structure:
 
 ## How it works
 
-1. **Input**: The program reads the CSV file to extract the supply, demand, and cost data.
+1. **Input**: The program reads the CSV file to extract the supply, demand, and cost data. (Here are some example with "matrix" and "matrix 2"
 2. **North-West Corner Method**: The program starts by finding an initial feasible solution using the North-West Corner Method.
 3. **Transportation Simplex Method**: The program then uses the Transportation Simplex Method to iteratively improve the solution by finding loops and pivoting.
 4. **Output**: The optimal solution and the total transportation cost are printed.
